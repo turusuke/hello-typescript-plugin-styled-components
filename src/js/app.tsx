@@ -10,8 +10,8 @@ function App() {
   return (
     <div className="App">
       <Hello>hoge</Hello>
-  </div>
-);
+    </div>
+  );
 }
 
 const rootElement = document.getElementById("root");
