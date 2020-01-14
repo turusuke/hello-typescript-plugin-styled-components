@@ -1,15 +1,17 @@
 import * as React from "react";
 import { render } from "react-dom";
 import styled from "styled-components";
+import { Header } from "./Header";
 
-const Hello = styled.div`
+const Content = styled.div`
   text-align: center;
 `;
 
 function App() {
   return (
     <div className="App">
-      <Hello>hoge</Hello>
+      <Header/>
+      <Content>Content</Content>
     </div>
   );
 }
